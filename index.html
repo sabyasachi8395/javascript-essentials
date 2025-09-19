@@ -3,21 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Us - TravelBloom</title>
+  <title>TravelBloom</title>
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+
+  <!-- Navbar -->
   <header>
     <nav class="navbar">
       <div class="logo">TravelBloom</div>
       <ul class="nav-links">
-        <li><a href="travel_recommendation.html">Home</a></li>
+        <li><a href="index.htmll">Home</a></li>
         <li><a href="about.html">About Us</a></li>
         <li><a href="contact.html">Contact Us</a></li>
       </ul>
       <div class="search-bar">
         <input type="text" id="searchInput" placeholder="Enter a destination or keyword">
-        <button id="searchBtn">Search</button>
+        <button id="searchBtn" onclick="searchRecommendations()">Search</button>
         <button id="resetBtn">Clear</button>
       </div>
     </nav>
@@ -27,18 +29,21 @@
   <section class="hero">
     <div class="hero-content">
       <h1>
-        ABOUT <br>
-        US <br>
+        EXPLORE <br>
+        DREAM <br>
+        DESTINATION
       </h1>
       <p>
-        We’re passionate about connecting travelers with unforgettable experiences around the world
+        It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes, 
+        while pursuing the desired destination that captivates the heart and ignites a sense of wonder.
       </p>
+      <a href="#results" class="btn">BOOK NOW</a>
     </div>
   </section>
 
-  <!-- Footer -->
-  <footer>
-    <p>© 2025 TravelBloom. All rights reserved.</p>
-  </footer>
+  <!-- Results Section -->
+  <section id="results" class="results"></section>
+
+  <script src="js/index.js"></script>
 </body>
 </html>
