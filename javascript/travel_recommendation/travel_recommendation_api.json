@@ -1,0 +1,60 @@
+{
+  "countries": [
+    {
+      "name": "Japan",
+      "cities": [
+        {
+          "name": "Tokyo",
+          "description": "The bustling capital of Japan, known for modern skyscrapers and traditional temples.",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEnqLgvl4MYwd--diUst4jEKyHYdNHs3MSVQ&s"
+        },
+        {
+          "name": "Kyoto",
+          "description": "Famous for its classical Buddhist temples, gardens, and traditional wooden houses.",
+          "imageUrl": "https://images.unsplash.com/photo-1549693578-d683be217e58"
+        }
+      ]
+    },
+    {
+      "name": "Italy",
+      "cities": [
+        {
+          "name": "Rome",
+          "description": "The Eternal City, home to ancient ruins like the Colosseum and Roman Forum.",
+          "imageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRi1omkNzuPW2KPP7vHxkcWSuSX1eL7qc-BZw&s"
+        },
+        {
+          "name": "Venice",
+          "description": "Famous for its canals, gondolas, and Renaissance architecture.",
+          "imageUrl": "https://cdn.britannica.com/62/153462-050-3D4F41AF/Grand-Canal-Venice.jpg"
+        }
+      ]
+    }
+  ],
+  "temples": [
+    {
+      "name": "Angkor Wat",
+      "description": "A massive temple complex in Cambodia, one of the largest religious monuments in the world.",
+      "imageUrl": "https://lp-cms-production.imgix.net/2025-01/Cambodia-Angkor-Wat-Waj-shutterstockRF312461543-crop.jpg?auto=format,compress&q=72&w=1440&h=810&fit=crop"
+    },
+    {
+      "name": "Golden Temple",
+      "description": "The holiest Sikh gurdwara located in Amritsar, India.",
+      "imageUrl": "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2b/6b/92/ef/caption.jpg?w=1200&h=-1&s=1"
+    }
+  ],
+  "beaches": [
+    {
+      "name": "Bondi Beach",
+      "country": "Australia",
+      "description": "World-famous beach in Sydney, popular for surfing and sunbathing.",
+      "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+    },
+    {
+      "name": "Goa Beach",
+      "country": "India",
+      "description": "Beautiful beaches along the Arabian Sea, perfect for nightlife and relaxation.",
+      "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
+    }
+  ]
+}
