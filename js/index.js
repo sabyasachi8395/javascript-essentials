@@ -35,11 +35,11 @@ function searchRecommendations() {
   }
 
   // Match countries
-  travelData.countries?.forEach(country => {
-    if (country.name.toLowerCase() === input) {
+  if (input.includes("country")) {
+    travelData.countries?.forEach(country => {
       results = results.concat(country.cities);
-    }
-  });
+    });
+  }
 
   // If no results
   if (results.length === 0) {
@@ -55,6 +55,7 @@ function searchRecommendations() {
         <div class="card-content">
           <h3>${item.name}</h3>
           <p>${item.description}</p>
+          <button class='btn'>Choose</button>
         </div>
       </div>
     `;
