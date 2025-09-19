@@ -76,3 +76,11 @@ function clearResults() {
 // Attach event listeners
 document.getElementById("searchBtn").addEventListener("click", searchRecommendations);
 document.getElementById("resetBtn").addEventListener("click", clearResults);
+
+function submitContact() {
+  var name = document.getElementById('name').value;
+  var email = document.getElementById('email').value;
+  var message = document.getElementById('message').value;
+
+  alert(`Thanks ${name} for contacting us. We will get back to you soon`);
+}

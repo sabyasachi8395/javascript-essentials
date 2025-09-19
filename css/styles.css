@@ -172,7 +172,7 @@ header {
 }
 
 
-/* About Page Hero */
+/* About Hero */
 .about-hero {
   background: url("images/about-hero.jpg") no-repeat center center/cover;
   color: #fff;
@@ -182,7 +182,7 @@ header {
 
 .about-hero h2 {
   font-size: 48px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .about-hero p {
@@ -191,70 +191,94 @@ header {
   margin: 0 auto;
 }
 
-/* About Sections */
-.about-section {
-  padding: 50px 20px;
+/* About Content */
+.about-content {
+  padding: 60px 20px;
   max-width: 900px;
-  margin: 0 auto;
+  margin: auto;
   text-align: center;
 }
 
-.about-section h3 {
+.about-content h3 {
   font-size: 28px;
   margin-bottom: 15px;
   color: #333;
 }
 
-/* Team Section */
-.team {
+.about-content p {
+  font-size: 18px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* Mission & Vision */
+.mission-vision {
+  display: flex;
+  justify-content: space-around;
+  padding: 60px 20px;
   background: #f9f9f9;
-  padding: 50px 20px;
+}
+
+.mission-vision div {
+  max-width: 400px;
+  padding: 20px;
+}
+
+.mission-vision h3 {
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #00b894;
+}
+
+.mission-vision p {
+  font-size: 16px;
+  color: #444;
+}
+
+/* Team Section */
+.team-section {
+  padding: 60px 20px;
   text-align: center;
 }
 
-.team h3 {
+.team-section h3 {
   font-size: 30px;
   margin-bottom: 30px;
 }
 
-.team-members {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 30px;
+  max-width: 1000px;
+  margin: auto;
 }
 
-.member {
+.team-card {
   background: #fff;
   padding: 20px;
-  border-radius: 10px;
-  width: 250px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  transition: transform 0.3s;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
 
-.member:hover {
-  transform: translateY(-5px);
-}
-
-.member img {
+.team-card img {
   width: 100%;
-  height: 200px;
+  border-radius: 50%;
+  height: 180px;
   object-fit: cover;
-  border-radius: 8px;
   margin-bottom: 15px;
 }
 
-.member h4 {
+.team-card h4 {
   font-size: 20px;
   margin-bottom: 5px;
-  color: #222;
 }
 
-.member p {
-  font-size: 14px;
-  color: #666;
+.team-card p {
+  font-size: 16px;
+  color: #777;
 }
+
 
 /* Contact Hero */
 .contact-hero {
